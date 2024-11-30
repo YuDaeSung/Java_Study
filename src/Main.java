@@ -11,8 +11,20 @@ public class Main {
         // Chapter 2
 //        VarEx1 varEx1 = new VarEx1(); VarEx2 varEx2 = new VarEx2(); StringEx stringEx = new StringEx();
 //        PrintfEx1 printEx1 = new PrintfEx1(); PrintfEx2 printEx2 = new PrintfEx2(); ScannerEx scannerEx = new ScannerEx();
+//        CharToCode charToCode = new CharToCode(); SpecialCharEx specialCharEx = new SpecialCharEx(); OverflowEx overflowEx = new OverflowEx();
+//        FloatEx1 floatEx1 = new FloatEx1(); FloatToBinEx floatToBinEx = new FloatToBinEx(); CastingEx1 castingEx1 = new CastingEx1();
+        CastingEx2 castingEx2 = new CastingEx2(); CastingEx3 castingEx3 = new CastingEx3(); CastingEx4 castingEx4 = new CastingEx4();
 
         // 클래스 실행
-        //scannerEx.init();
+        castingEx4.init();
+
+
+        // 테스트용
+        System.out.println("\n\n\n\n\n\n\nTEST===============================================================================================================================");
+
+        int i = 50000;
+        byte b = (byte) i;
+
+        System.out.println(b);
     }
 }
